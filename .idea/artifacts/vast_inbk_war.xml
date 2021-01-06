@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="vast-inbk:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>vast-inbk</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="vast-inbk-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="vast-inbk:war exploded" />
+    </root>
+  </artifact>
+</component>
