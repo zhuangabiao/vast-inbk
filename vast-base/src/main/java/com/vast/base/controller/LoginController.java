@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 @Controller
 @RequestMapping("/vast")
@@ -21,10 +22,10 @@ public class LoginController {
 
     @RequestMapping("/verifyCode")
     @ResponseBody
-    public void verifyCode(HttpServletRequest request,HttpServletResponse response) {
+    public void verifyCode(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
         try {
             String verifyCode = VerifyUtil.outputVerifyImage(160,40,response.getOutputStream(),4);
-            request.getSession().setAttribute(SystemFinal.KEY_VERIFY_CODE,verifyCode);
+            session.setAttribute(SystemFinal.KEY_VERIFY_CODE,verifyCode);
         }catch (Exception e) {
             System.out.println(e.getMessage());
         }

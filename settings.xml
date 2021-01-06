@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+	<localRepository>D:\repository</localRepository>
+	<pluginGroups>
+	</pluginGroups>
+	<proxies>
+	</proxies>
+	<servers>
+
+	</servers>
+	<mirrors>
+		<!-- 阿里云仓库 -->
+		<mirror>
+			<id>aliyun</id>
+			<mirrorOf>central</mirrorOf>
+			<name>aliyun maven</name>
+			<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+		</mirror>
+	 
+		<!-- 阿里云仓库 -->
+		<mirror>
+			<id>alimaven</id>
+			<mirrorOf>central</mirrorOf>
+			<name>aliyun maven</name>
+			<url>http://maven.aliyun.com/nexus/content/repositories/central/</url>
+		</mirror>
+
+		<!-- apache maven -->
+		<mirror>
+			<id>apache</id>
+			<mirrorOf>apache</mirrorOf>
+			<name>apache maven</name>
+			<url>https://repository.apache.org/snapshots/</url>
+		</mirror>
+
+		<!-- 中央仓库1 -->
+		<mirror>
+			<id>repo1</id>
+			<mirrorOf>central</mirrorOf>
+			<name>Human Readable Name for this Mirror.</name>
+			<url>http://repo1.maven.org/maven2/</url>
+		</mirror>
+
+		<!-- jcenter -->
+		<mirror>
+			<id>jcenter</id>
+			<mirrorOf>jcenter</mirrorOf>
+			<name>jcenter</name>
+			<url>http://jcenter.bintray.com/</url>
+		</mirror>
+
+		<!-- maven-spring -->
+		<mirror>
+			<id>maven-spring</id>
+			<mirrorOf>maven-spring</mirrorOf>
+			<name>maven-spring</name>
+			<url>http://repo.spring.io/libs-milestone/</url>
+		</mirror>
+
+		<!-- sonatype-releases -->
+		<mirror>
+			<id>sonatype-releases</id>
+			<mirrorOf>sonatype-releases</mirrorOf>
+			<name>sonatype-releases</name>
+			<url>https://oss.sonatype.org/content/repositories/releases/</url>
+		</mirror>
+
+		<!-- spring-plugins-release -->
+		<mirror>
+			<id>spring-plugins-release</id>
+			<mirrorOf>spring-plugins-release</mirrorOf>
+			<name>spring-plugins-release</name>
+			<url>http://repo.spring.io/plugins-release/</url>
+		</mirror>
+
+		<!-- 中央仓库2 -->
+		<mirror>
+			<id>repo2</id>
+			<mirrorOf>central</mirrorOf>
+			<name>Human Readable Name for this Mirror.</name>
+			<url>http://repo2.maven.org/maven2/</url>
+		</mirror>
+
+		<!-- ibiblio -->
+		<mirror>
+			<id>ibiblio</id>
+			<mirrorOf>ibiblio</mirrorOf>
+			<name>Human Readable Name for this Mirror.</name>
+			<url>http://maven.ibiblio.org/maven2/</url>
+		</mirror>
+	</mirrors>
+
+	<activeProfiles>
+		<activeProfile>dev</activeProfile>
+	</activeProfiles>
+</settings>

@@ -45,18 +45,21 @@ public class AdminInterceptor implements HandlerInterceptor {
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
 
 
+
+        String userId = TokenUtil.getTokenUserId();
+        if(StringUtils.isEmpty(userId)) {
+            LoginContext loginContext = (LoginContext) request.getSession().getAttribute(SystemFinal.KEY_SESSION);
+            if(null == loginContext || StringUtils.isEmpty(loginContext.getId())) {
+                return false;
+//                response.sendRedirect("/vast/login2Page");
+            }
+        }
+
         if(!request.getRequestURI().contains(SystemFinal.URI_CONTAINS)) {
             response.sendRedirect("/vast/login2Page");
         }
         if(request.getRequestURI().contains(SystemFinal.URI_LOGIN)) {
             return true;
-        }
-        String userId = TokenUtil.getTokenUserId();
-        if(StringUtils.isEmpty(userId)) {
-            LoginContext loginContext = (LoginContext) request.getSession().getAttribute(SystemFinal.KEY_SESSION);
-            if(null == loginContext || StringUtils.isEmpty(loginContext.getId())) {
-                response.sendRedirect("/vast/login2Page");
-            }
         }
         return true;
     }

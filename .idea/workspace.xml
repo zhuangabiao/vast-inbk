@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/vast-base/src/main/java/com/vast/base/interceptor/AdminInterceptor.java" line="47" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d88c0419-11b5-4ccb-bef3-a31f9dd1d9b6" name="Default Changelist" comment="新增验证码功能">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d88c0419-11b5-4ccb-bef3-a31f9dd1d9b6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vast-base/src/main/java/com/vast/base/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/vast-base/src/main/java/com/vast/base/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vast-base/src/main/java/com/vast/base/interceptor/AdminInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/vast-base/src/main/java/com/vast/base/interceptor/AdminInterceptor.java" afterDir="false" />
     </list>
     <list id="1e232d4d-11a8-4ff8-9dc5-9ca71612fe52" name="Not Commit" comment="Not Commit" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vast-base/src/main/java/com/vast/base/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+            <state relative-caret-position="275">
+              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vast-base/src/main/java/com/vast/base/interceptor/AdminInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="255">
+              <caret line="52" column="29" lean-forward="true" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,11 +131,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vast-base/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+            <state relative-caret-position="116">
+              <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -189,16 +188,16 @@
         <option value="$PROJECT_DIR$/vast-base/src/main/java/com/vast/base/interceptor/LoginInterceptor.java" />
         <option value="$PROJECT_DIR$/vast-base/src/main/java/com/vast/base/units/LoginContext.java" />
         <option value="$PROJECT_DIR$/vast-base/src/main/java/com/vast/base/units/TokenUtil.java" />
-        <option value="$PROJECT_DIR$/vast-base/src/main/java/com/vast/base/interceptor/AdminInterceptor.java" />
         <option value="$PROJECT_DIR$/vast-base/src/main/java/com/vast/base/units/VerifyUtil.java" />
         <option value="$PROJECT_DIR$/vast-base/src/main/java/com/vast/base/units/CheckCodeUtil.java" />
         <option value="$PROJECT_DIR$/vast-base/src/main/java/com/vast/base/config/LoginConfig.java" />
         <option value="$PROJECT_DIR$/vast-base/src/main/java/com/vast/base/units/SystemFinal.java" />
-        <option value="$PROJECT_DIR$/vast-base/src/main/java/com/vast/base/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/vast-base/src/main/resources/templates/login.html" />
         <option value="$PROJECT_DIR$/.idea/vast-inbk.iml" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/vast-base/pom.xml" />
+        <option value="$PROJECT_DIR$/vast-base/src/main/java/com/vast/base/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/vast-base/src/main/java/com/vast/base/interceptor/AdminInterceptor.java" />
       </list>
     </option>
   </component>
@@ -267,7 +266,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2091954" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -343,7 +342,7 @@
       <workItem from="1609743973805" duration="1225000" />
       <workItem from="1609745399686" duration="35300000" />
       <workItem from="1609854902996" duration="11554000" />
-      <workItem from="1609911804049" duration="1854000" />
+      <workItem from="1609911804049" duration="4289000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目，未搭建框架">
       <created>1609727251187</created>
@@ -394,16 +393,24 @@
       <option name="project" value="LOCAL" />
       <updated>1609902618926</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="新增验证码功能">
+      <created>1609913979218</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1609913979218</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61663000" />
+    <option name="totallyTimeSpent" value="64098000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26972282" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15298508" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -414,7 +421,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2635575" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.30260304" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -496,9 +503,6 @@
           <caret selection-end-column="11" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vast/inbk/package-info.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vast/inbk/VastInbkApplication.java" />
@@ -788,16 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vast-base/src/main/java/com/vast/base/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vast-base/src/main/resources/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2225">
@@ -812,16 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vast-base/src/main/java/com/vast/base/interceptor/AdminInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -906,10 +890,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vast-base/HELP.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vast-base/vast-base.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="66" lean-forward="true" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vast-base/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        <state relative-caret-position="116">
+          <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vast-base/src/main/java/com/vast/base/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vast-base/src/main/java/com/vast/base/interceptor/AdminInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="52" column="29" lean-forward="true" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
